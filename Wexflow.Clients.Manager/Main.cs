@@ -21,7 +21,7 @@ namespace Wexflow.Clients.Manager
     // TODO WebApp
     // TODO FilesRenamer?, YouTube?
 
-    public partial class Form1 : Form
+    public partial class Main : Form
     {     
         private const string COLUMN_ID = "Id";
         private const string COLUMN_ENABLED = "Enabled";
@@ -34,7 +34,7 @@ namespace Wexflow.Clients.Manager
         private Dictionary<int, bool> _previousIsPaused;
         private bool _windowsServiceWasStopped;
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
 
